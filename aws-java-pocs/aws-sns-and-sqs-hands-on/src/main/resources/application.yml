@@ -1,0 +1,15 @@
+cloud:
+  aws:
+    region:
+      auto: false
+      static: ap-south-1
+    stack:
+      auto: false
+    end-point:
+      uri: https://sqs.ap-south-1.amazonaws.com/579418935192/sqs-queue
+    credentials:
+      access-key: AKIAYN2APJ6MFYDPQSIU
+      secret-key: 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
+
+server:
+  port: 8081
